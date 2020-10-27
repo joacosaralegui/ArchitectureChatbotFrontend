@@ -309,7 +309,7 @@ function setBotResponse(response) {
             }
             scrollToBottomOfResults();
         }
-    }, 500);
+    }, 50);
 }
 
 //====================================== Toggle chatbot =======================================
