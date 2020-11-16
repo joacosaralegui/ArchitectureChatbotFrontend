@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: url('../img/body.png') no-repeat center center fixed;
+    background: url('../img/fondo.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -8,7 +8,7 @@ body {
 /* ============= css related to chats =============== */
 
 .widget {
-    display: none;
+    /*display: none;*/
     width: 350px;
     right: 15px;
     height: 500px;
@@ -168,7 +168,7 @@ textarea-webkit-scrollbar {
 }
 
 .profile_div {
-    /* display: none; */
+    display: none;
     position: fixed;
     padding: 5px;
     width: 10%;
@@ -218,7 +218,7 @@ textarea-webkit-scrollbar {
 
 .content {
     transition: 0.2s;
-    display: none;
+    /*display: none;*/
     width: 350px;
     right: 15px;
     height: 500px;

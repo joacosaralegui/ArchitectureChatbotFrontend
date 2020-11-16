@@ -34,7 +34,7 @@ $(document).ready(function() {
     //if you want the bot to start the conversation
     // action_trigger();
 
-})
+});
 
 // ========================== restart conversation ========================
 function restartConversation() {
@@ -56,7 +56,7 @@ function action_trigger() {
 
     // send an event to the bot, so that bot can start the conversation by greeting the user
     $.ajax({
-        url: `http://localhost:5005/conversations/${user_id}/execute`,
+        url: `https://architecture-chatbot.herokuapp.com/conversations/${user_id}/execute`,
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({ "name": action_name, "policy": "MappingPolicy", "confidence": "0.98" }),
